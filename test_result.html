@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Database Form</title>
+</head>
+<body>
+    <header class="header">
+        <!-- logo -->
+        <div class="logo">
+            <a href="#">SurgLife</a> 
+         </div>
+        <!-- <h2 class="logo">SurgLife</h2> -->
+        <!-- navbar -->
+        <nav class="site-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="" class="form">
+        <h2 class="heading">Test Result Form</h2>
+        <label for="result_name" class="label">
+            Patients Id:
+        </label><br>
+        <input type="number" class="name" name="lab_name" id="lab_name" pattern="[0-9]{3}" required><br>
+        <label for="result_name" class="label">
+            Test Id:
+        </label><br>
+        <input type="number" class="name" name="lab_name" id="lab_name" pattern="[0-9]{3}" required><br>
+        <label for="lab_desc" class="label">
+            Result:
+        </label><br>
+        <textarea name="message" class="desc" required></textarea><br>
+        <input type="submit" value="Submit" class="btn_submit">
+    </form>
+    <div class="footer-menu">
+        <ul>
+            <li><a href="index.html">Back</a></li>
+            <li><a href="patients.html">Patients form</a></li>
+            <li><a href="prof_em.html">Professional Employees form</a></li>
+            <li><a href="nonprof_em.html">Nonprofessional Employees form</a></li>
+            <li><a href="dept.html">Department form</a></li>
+            <li><a href="test_result.html">Test Result form</a></li>
+            <li><a href="test_lab.html">Laboratory form</a></li>
+            <li><a href="drug.html">Pharamacy form</a></li>
+            <li><a href="medical_report.html">Medical Report form</a></li>
+        </ul>
+    </div>
+</body>
+</html>

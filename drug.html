@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Database Form</title>
+</head>
+<body>
+    <header class="header">
+        <!-- logo -->
+        <div class="logo">
+            <a href="#">SurgLife</a> 
+         </div>
+        <!-- <h2 class="logo">SurgLife</h2> -->
+        <!-- navbar -->
+        <nav class="site-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="" class="form">
+        <h2 class="heading">Pharamacy Form</h2>
+        <label for="phar_name" class="label">
+            Pharamacy Name:
+        </label><br>
+        <input type="text" class="name" name="phar_name" id="phar_name" pattern="[A-Za-z/s]" required><br>
+        <label for="phar_desc" class="label">
+            Pharamacy Description:
+        </label><br>
+        <textarea name="message" class="desc" ></textarea><br>
+        <input type="submit" value="Submit" class="btn_submit">
+    </form>
+    <div class="footer-menu">
+        <ul>
+            <li><a href="index.html">Back</a></li>
+            <li><a href="patients.html">Patients form</a></li>
+            <li><a href="prof_em.html">Professional Employees form</a></li>
+            <li><a href="nonprof_em.html">Nonprofessional Employees form</a></li>
+            <li><a href="dept.html">Department form</a></li>
+            <li><a href="test_result.html">Test Result form</a></li>
+            <li><a href="test_lab.html">Laboratory form</a></li>
+            <li><a href="drug.html">Pharamacy form</a></li>
+            <li><a href="medical_report.html">Medical Report form</a></li>
+        </ul>
+    </div>
+</body>
+</html>

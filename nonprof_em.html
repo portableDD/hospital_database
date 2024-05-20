@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Database Form</title>
+</head>
+<body>
+    <header class="header">
+        <!-- logo -->
+        <div class="logo">
+            <a href="#">SurgLife</a> 
+         </div>
+        <!-- <h2 class="logo">SurgLife</h2> -->
+        <!-- navbar -->
+        <nav class="site-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="" class="form">
+        <h2 class="heading">Nonprofessional Employees Form</h2>
+        <label for="employess_name" class="label">
+            Employees Name:
+        </label><br>
+        <input type="text" class="name" name="lab_name" id="lab_name" pattern="[A-Za-z/s]" required><br>
+        <label for="date_of_birth" class="label">
+            Date of Birth:
+        </label><br>
+        <input type="date" class="name" name="lab_name" id="lab_name" required><br>
+        <label for="employees_num" class="label">
+            Phone Number:
+        </label><br>
+        <input 
+            type="tel" 
+            class="name" name="lab_name" id="lab_name" placeholder="09078562988" 
+            pattern="[0-9]{4}[0-9]{3}[0-9]{4}" required
+        >
+        <br>
+        <label for="email" class="label">
+            Email:
+        </label><br>
+        <input type="email" class="name" name="lab_name" id="lab_name"  
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" 
+            required
+        ><br>
+        <label for="file" class="label">
+            Qualification:
+        </label><br>
+        <select id="cars" name="cars" class="name" required>
+            <option value="volvo">SSCE</option>
+            <option value="saab">BSC</option>
+            <option value="saab">MA</option>
+            <option value="saab">PHD</option>
+        </select><br>
+        <label for="file" class="label">
+            Role:
+        </label><br>
+        <input type="text" class="name" name="lab_name" id="lab_name" pattern="[A-Za-z/s]" required><br>
+        <label for="address" class="label">
+            Department ID:
+        </label><br>
+        <input type="number" class="name" name="lab_name" id="lab_name" pattern="[0-9]{3}" required><br> 
+        <input type="submit" value="Submit" class="btn_submit">
+    </form>
+    <div class="footer-menu">
+        <ul>
+            <li><a href="index.html">Back</a></li>
+            <li><a href="patients.html">Patients form</a></li>
+            <li><a href="prof_em.html">Professional Employees form</a></li>
+            <li><a href="nonprof_em.html">Nonprofessional Employees form</a></li>
+            <li><a href="dept.html">Department form</a></li>
+            <li><a href="test_result.html">Test Result form</a></li>
+            <li><a href="test_lab.html">Laboratory form</a></li>
+            <li><a href="drug.html">Pharamacy form</a></li>
+            <li><a href="medical_report.html">Medical Report form</a></li>
+        </ul>
+    </div>
+</body>
+</html>
